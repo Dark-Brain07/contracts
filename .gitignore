@@ -17,3 +17,7 @@ artifacts/
 
 # Coverage
 lcov.info
+
+# Editor files
+.DS_Store
+.vscode/
