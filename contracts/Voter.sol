@@ -19,7 +19,7 @@ import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.
 import {ProtocolTimeLibrary} from "./libraries/ProtocolTimeLibrary.sol";
 
 /// @title Protocol Voter
-/// @author velodrome.finance, @figs999, @pegahcarter
+/// @author velodrome.finance, Solidly, @figs999, @pegahcarter
 /// @notice Manage votes, emission distribution, and gauge creation within the Protocol's ecosystem.
 ///         Also provides support for depositing and withdrawing from managed veNFTs.
 contract Voter is IVoter, ERC2771Context, ReentrancyGuard {

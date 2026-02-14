@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity 0.8.19;
 
 import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
@@ -14,7 +14,7 @@ import {ERC20Permit} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20P
 import {ReentrancyGuard} from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 /// @title Pool
-/// @author velodrome.finance, @figs999, @pegahcarter
+/// @author velodrome.finance, Solidly, Uniswap Labs, @figs999, @pegahcarter
 /// @notice Protocol token pool, either stable or volatile
 contract Pool is IPool, ERC20Permit, ReentrancyGuard {
     using SafeERC20 for IERC20;

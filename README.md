@@ -80,6 +80,11 @@ See `script/README.md` for more detail.
 ### Access Control
 See `PERMISSIONS.md` for more detail.
 
+## Licensing
+
+This project follows the [Apache Foundation](https://infra.apache.org/licensing-howto.html)
+guideline for licensing. See LICENSE and NOTICE files.
+
 ## Deployment
 
 | Name               | Address                                                                                                                               |
