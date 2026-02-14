@@ -104,3 +104,7 @@ guideline for licensing. See LICENSE and NOTICE files.
 | VotingRewardsFactory               | [0x45cA74858C579E717ee29A86042E0d53B252B504](https://basescan.org/address/0x45cA74858C579E717ee29A86042E0d53B252B504#code) |
 | Pool               | [0xA4e46b4f701c62e14DF11B48dCe76A7d793CD6d7](https://basescan.org/address/0xA4e46b4f701c62e14DF11B48dCe76A7d793CD6d7#code) |
 
+
+## Community
+
+For support and discussion, join the Aerodrome community on [Discord](https://discord.com/invite/aerodrome) and follow us on [Twitter](https://twitter.com/aerodromefi).
