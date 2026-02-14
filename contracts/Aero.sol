@@ -18,6 +18,7 @@ contract Aero is IAero, ERC20Permit {
         owner = msg.sender;
     }
 
+    /// @notice Sets the minter address
     /// @dev No checks as its meant to be once off to set minting rights to BaseV1 Minter
     function setMinter(address _minter) external {
         if (msg.sender != minter) revert NotMinter();
